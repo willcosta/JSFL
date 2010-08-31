@@ -1,0 +1,1 @@
+﻿/**@author Will Costahttp://www.williancosta.com/blogwillian87@gmail.comChanges the text of the selected TextField's to upper case;*/var n = fl.getDocumentDOM().selection.length;var textField;for(var i = 0; i < n; i++){	textField = fl.getDocumentDOM().selection[i];	textField.setTextString(textField.getTextString().toUpperCase());}
